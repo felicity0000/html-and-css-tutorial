@@ -1,0 +1,100 @@
+/* CSS Color */
+h1 {
+    color:red;
+}
+
+/*CSS Background*/
+/*
+background-color, background-image
+background-repeat, background-attachment
+background-position
+*/
+
+/*CSS fonts*/
+/*
+font-family, font-style, font-weight
+font-size font-variant
+*/
+body {
+    /*sets the background color of an element*/
+    background-color:#f0e68c;
+    background-image: url("/10.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    /*The font-family property is used to specify the font to be used to render the text.*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p {
+    color: white;
+    /*
+    The font-style property is used to set the font face style for the text content of an element.
+    {values: normal, italic or oblique}
+    */
+    font-style:italic;
+    font-size: 24px; 
+    /*
+    {em}
+    {xx-small, x-small, small, medium, large, x-large, xx-large}
+    */
+
+    /*
+    font-weight property specifies the weight or boldness of the font.
+    {normal, bold, bolder, lighter, 100,200-900, inherit}
+    */
+    font-weight: bold;
+}
+
+/*CSS Text*/
+/*
+text-align, text-decoration, text-transform, text-indent
+line-height, letter-spacing, word-spacing
+*/
+.pace {
+    font-variant: small-caps;
+    color:aqua;
+    /*
+    The text-align property is used to set the horizontal alignment of the text.
+    {left, center, right, justify}
+    */
+    text-align: center;
+
+    /*
+    The text-decoration property is used to set or remove decorations from text.
+    {underline, overline, line-through, none}
+    */
+    text-decoration: line-through;
+
+    /*
+    The text-transform property is used to set the cases for a text.
+    {uppercase, capitalize, lowercase}
+    */
+    text-transform: lowercase;
+
+    /*
+    The letter-spacing property is used to set extra spacing between the characters of text.
+    */
+    letter-spacing: -3px;
+
+    word-spacing: 20px;
+    /*The line-height property is used to set the height of the text line.*/
+    line-height: 1.2;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul li {
+    color: red;
+}
+
+ol li {
+    color: blue;
+}
