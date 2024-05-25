@@ -2,9 +2,58 @@
 /*{width, height, max-width, min-width, max-height, min-height}*/
 /*
 The width and height property defines the width and height of the content area of an element.
-{aut0, 300px, rem, em}
+{auto, 300px, rem, em}
+
+max-width
 */
 div {
     width: 300px;
     height: 200px;
+    max-width: 200px;
+    padding: 50px;
+    border-style: ridge;
+    /*
+    display property values
+    {block, inline, inline-block, none}
+    */
+    display: inline-block;
+}
+
+/*
+{solid, dotted, dashed, groove, ridge, outset, inset, double etc}
+*/
+
+/*
+cursor property values
+{move, default, wait, help, progress, crosshair, url()}
+*/
+
+/*
+overflow values
+{visible(default), hidden, scroll, auto}
+*/
+.id {
+    outline-style: groove;
+    outline-width: 20px;
+    outline-color: #0000ff;
+    /*cursor: text;*/
+    width: 250px;
+    height: 150px;
+    /*overflow: auto;*/
+    position: relative;
+    text-overflow: ellipsis;
+}
+/*
+CSS visibility property values
+{visible, hidden, cllapse, inherit, none}
+*/
+
+.id:hover {
+    color: red;
+}
+.id:active {
+    color: gray;
+}
+.id:focus {
+    color: yellow;
 }

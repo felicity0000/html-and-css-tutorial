@@ -92,7 +92,7 @@ ol {
 }
 
 ul li {
-    color: red;
+    color: red;display: block;
 }
 
 ol li {
